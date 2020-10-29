@@ -1,0 +1,76 @@
+body{
+    background-color: black;
+    margin: 0%;
+    padding: 1%;
+}
+.main{
+    margin: auto;
+    padding: 1%;
+    background-color: rgb(221, 167, 18);
+    width: 75%;
+    height: 80%;
+    box-shadow: 0px 0px 30px 2px rgb(221, 167, 18);
+}
+.heading{
+    color: rgb(197, 15, 15);
+    text-align: center;
+    text-shadow: 0px 0px 20px red;    
+    font-size: 200%;
+}
+.image{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+
+}
+ img{
+    width: 200px;
+    height: 200px;
+    margin: 2%;
+    box-shadow: 0px 0px 30px 2px black;
+    transition-duration: 1s;
+    border-radius: 50%;
+ }
+ img:hover{
+    box-shadow: 0px 0px 50px 10px black;
+    transition-duration: unset;
+    cursor: wait;
+
+ }
+
+ img:active{
+    box-shadow: 0px 0px 10px 4px black;
+
+ }
+.replay{
+    text-align: center;
+}
+
+ button{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: rgb(7, 88, 4);
+    border-radius: 20px;
+    font-size: xx-large;
+    font-weight: 800;
+ }
+
+ #opponentImg{
+    box-shadow: 0px 0px 30px 2px red;
+
+ }
+
+ #choiceImg{
+    box-shadow: 0px 0px 30px 2px blue;
+
+ }
+
+ .resultText{
+     color: rgb(9, 105, 9);
+     text-align: center;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-size: xx-large;
+     font-weight: lighter;
+ }
