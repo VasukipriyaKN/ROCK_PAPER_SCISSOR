@@ -46,7 +46,9 @@ function rpsGame(yourChoice) {
     document.getElementById("resultText").appendChild(h1);
     
 
-    
+    document.getElementById("main").style.backgroundColor="black";
+    document.getElementById("main").style.boxShadow="black";
+
 
     function winner(yourChoice,a) {
         if (yourChoice == a) {
@@ -84,5 +86,5 @@ function rpsGame(yourChoice) {
 
     winner(yourChoice,a);
 
-    setTimeout("document.location.reload()",1500);
+    setTimeout("document.location.reload()",2500);
 }
