@@ -2,13 +2,15 @@ body{
     background-color: black;
     margin: 0%;
     padding: 1%;
+    transition-property: all;
+    transition-duration: 1s;
 }
 .main{
     margin: auto;
     padding: 1%;
     background-color: rgb(221, 167, 18);
     width: 75%;
-    height: 80%;
+    height: 80vh;
     box-shadow: 0px 0px 30px 2px rgb(221, 167, 18);
 }
 .heading{
@@ -33,9 +35,9 @@ body{
     border-radius: 50%;
  }
  img:hover{
-    box-shadow: 0px 0px 50px 10px black;
+    box-shadow: 0px 0px 50px 10px rgb(247, 0, 255);
     transition-duration: unset;
-    cursor: wait;
+    cursor: all-scroll;
 
  }
 
@@ -58,19 +60,20 @@ body{
  }
 
  #opponentImg{
-    box-shadow: 0px 0px 30px 2px red;
+    box-shadow: 0px 0px 100px 10px rgb(255, 0, 0);
 
  }
 
  #choiceImg{
-    box-shadow: 0px 0px 30px 2px blue;
+    box-shadow: 0px 0px 100px 10px blue;
 
  }
 
  .resultText{
-     color: rgb(9, 105, 9);
+     color: rgb(0, 0, 0);
      text-align: center;
-     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
      font-size: xx-large;
-     font-weight: lighter;
- }
+     font-weight: 900;
+     text-shadow: 0px 0px 20px rgb(145, 255, 0);
+    }
